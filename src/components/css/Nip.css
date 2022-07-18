@@ -1,0 +1,74 @@
+
+.heading{
+    color: black;
+}
+
+.bog{
+    font-size: 30px;
+    line-height: 45px;
+}
+.title3{
+    color: green;
+    font-size: 100px;
+}
+
+.ykyk{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    line-height: 60px;
+}
+
+.footer{
+    color: white;
+    margin: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:1050px) {
+    
+}
+
+@media screen and (max-width:1050px) and (orientation:landscape){
+    
+}
+
+
+@media screen and (max-width:980px) {
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .heading{
+        color:black;
+        
+    }
+    .bog{
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .title3{
+        color: green;
+        font-size: 100px;
+    }
+    
+    .ykyk{
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        line-height: 60px;
+    }
+    
+    .footer{
+        color: white;
+        margin: 40px;
+        font-size: 20px;
+        text-align: center;
+    } 
+}
+
+@media screen and (max-width:575px) {
+    
+}

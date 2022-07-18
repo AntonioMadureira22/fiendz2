@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Staatliches", cursive;
+}
+
+h1{
+    color: black;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    color: black;
+    text-align: center;
+}
+
+.pgr1{
+    margin-top: 25px;
+    font-size: 23px;
+    line-height: 1.55;
+}
+
+.tname1{
+    margin-top: 60px;
+    margin-bottom: -50px;
+    
+}
+.team{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 900px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    
+}
+.priv{
+    margin-top: 40px;
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 20px;
+}
+/*mobile styling*/
+
+/*Larger Screens*/
+@media screen and (max-width:980px) {
+    h1{
+        color: black;
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+    }
+    h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    p{
+        color: black;
+        text-align: center;
+    
+    }
+    .pgr1{
+        margin-top: 23px;
+        font-size: 23px;
+        line-height: 1;
+        text-align: center;
+    }
+    
+    .tname1{
+        margin-top: 60px;
+        margin-bottom: -50px;
+        
+    }
+    .team{
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 900px;
+        width: 400px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+    .priv{
+        margin-top: 40px;
+        text-align: center;
+        word-spacing: 20px;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:900px) and (orientation:landscape) {
+    h1{
+        color: black;
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+    }
+    h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    p{
+        color: black;
+        text-align: center;
+    
+    }
+
+    
+    .pgr1{
+        margin-top: 23px;
+        font-size: 21px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .tname1{
+        margin-top: 60px;
+        margin-bottom: -50px;
+        
+    }
+    .team{
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        width: 500px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+    .priv{
+        margin-top: 40px;
+        text-align: center;
+        word-spacing: 20px;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    h1{
+        color: black;
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+    }
+    h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    p{
+        color: black;
+        text-align: center;
+    
+    }
+   
+    
+    .pgr1{
+        margin-top: 23px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .tname1{
+        margin-top: 60px;
+        margin-bottom: -50px;
+        
+    }
+    .team{
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        width: 500px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+    .priv{
+        margin-top: 40px;
+        text-align: center;
+        word-spacing: 20px;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:575px) {
+    h1{
+        color: black;
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+    }
+    h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    p{
+        color: black;
+        text-align: center;
+    
+    }
+    img{
+        height: 250px;
+        width: 250px;
+        display: black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pgr1{
+        margin-top: 23px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .tname1{
+        margin-top: 60px;
+        margin-bottom: -50px;
+        
+    }
+    .team{
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 350px;
+        width: 350px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+    .priv{
+        margin-top: 40px;
+        text-align: center;
+        word-spacing: 20px;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:820px) and (orientation: landscape){
+    h1{
+        color: black;
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+    }
+    h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    p{
+        color: black;
+        text-align: center;
+    
+    }
+    img{
+        height: 300px;
+        width: 400px;
+        display: black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pgr1{
+        margin-top: 23px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .tname1{
+        margin-top: 60px;
+        margin-bottom: -50px;
+        
+    }
+    .team{
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 200px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+    .priv{
+        margin-top: 40px;
+        text-align: center;
+        word-spacing: 20px;
+        font-size: 20px;
+    }
+    
+}

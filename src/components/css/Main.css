@@ -1,0 +1,14 @@
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+    
+}
+
+.image-container1{
+    height: 700px;
+    width: 700px;
+}
