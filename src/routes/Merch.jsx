@@ -5,6 +5,7 @@ import "../components/css/Merch.css"
 
 const Merch = () => {
   return (
+    <body>
     <div className='head'>
         <div className='disappear'>
             <span>C</span>
@@ -20,6 +21,7 @@ const Merch = () => {
         </div>
 
     </div>
+    </body>
   )
 }
 
