@@ -17,29 +17,10 @@
 }
 
 .img4:hover{
-    
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px 4px;
-   color: rgb(36, 190, 36);
-
-}
-.img5{
-   
-    position: absolute;
-    top: 0;
-    width: 260px;
-    left: 56%;
-    top: 2%;
+    transform: scale(1.2);
 }
 
-.img5:hover{
-    
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px 4px;
-   color: rgb(36, 190, 36);
-}
 .img6{
-   
     position: absolute;
     top: 0;
     width: 130px;
@@ -48,7 +29,6 @@
 }
 
 .img6:hover{
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px 3px;
-    color: rgb(36, 190, 36);
+    transform: scale(1.2) ;
+    
 }
