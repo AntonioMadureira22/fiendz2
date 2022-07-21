@@ -8,7 +8,8 @@ import "../components/css/Inside.css"
 //Images
 import inside from "../components/images/FInside.jfif"
 import wanted from "../components/images/wanted.png"
-import map from "../components/images/map.jfif"
+
+import shirt from "../components/images/shirt22.png"
 
 function Inside() {
   return (
@@ -19,9 +20,11 @@ function Inside() {
       <img className='img4' src={wanted} alt="wanted poster" />
       </Link>
     </div>
-    <div className='map'>
-      <Link to='/RoadMap'>
-        <img className='img5' src={map} alt='map'/>
+    
+    
+    <div className='shirt'>
+      <Link to='/Merch'>
+        <img className='img6' src={shirt} alt='shirt' />
       </Link>
     </div>
     </div>
