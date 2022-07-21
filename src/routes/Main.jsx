@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 //stylesheet
-import "../components/css/Main.css"
+import "../components/css/Front.css"
 
 //image import
 import enter from "../components/images/store4.png"
@@ -9,9 +10,11 @@ import enter from "../components/images/store4.png"
 
 const Main = () => {
     return (
-        <div className='Main'>
-            <div className='image-container1'>
-                <img classname="enter" src={enter} alt='enter page' />
+        <div className='front'>
+            <div className='enter-pg'>
+                <Link to="/Inside">
+                    <img classname='outside' src={enter} alt='enter page' width="1000px" height="1000px"/>
+                </Link>
             </div>
         </div>
     )

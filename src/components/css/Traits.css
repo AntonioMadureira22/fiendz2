@@ -11,16 +11,24 @@ h1{
     align-items: center;
 
 }
-img{
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: 500px;
-    padding: 10px;
+.trait1{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 500px;
+        padding: 10px;
 }
-
+.trait2{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 500px;
+        padding: 10px;
+}
 @media screen and (max-width:980px) {
     img{
         height: 500px;
@@ -32,16 +40,14 @@ img{
     
 }
 @media screen and (max-width:900px) and (orientation:landscape) {
-    img{
+    .trait1{
         height: 300px;
         width: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-}
-@media screen and (max-width:768px) {
-    img{
+    .trait2{
         height: 300px;
         width: 300px;
         display: block;
@@ -50,13 +56,39 @@ img{
     }
 }
 
-@media screen and (max-width:575px) {
-    img{
-        height: 250px;
-        width: 250px;
+@media screen and (max-width:768px) {
+    .trait1{
+        height: 300px;
+        width: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    
+    .trait2{
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
+
+@media screen and (max-width:575px) {
+    .trait1{
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .trait2{
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+    

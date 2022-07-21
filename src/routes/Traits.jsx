@@ -14,10 +14,10 @@ const traits = () => {
                 <h1>Traits</h1>
             </div>
             <div className='img1'>
-                    <img src={trait1} alt='feline fiend 1'/>
+                    <img className='trait1' src={trait1} alt='feline fiend 1'/>
                 </div>
             <div className='img2'>
-                <img src= {trait2} alt='feline fiend 2' />
+                <img className='trait2' src= {trait2} alt='feline fiend 2' />
             </div>
             
         </div>

@@ -1,0 +1,8 @@
+.enter-pg{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ bottom: 150px;
+}
+
