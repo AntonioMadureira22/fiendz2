@@ -13,6 +13,7 @@ body{
     height: fit-content;
     bottom: 0;
     top: 0;
+    letter-spacing: 20px;
 }
 .disappear span{
     display: inline-block;

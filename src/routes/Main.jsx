@@ -13,7 +13,7 @@ const Main = () => {
         <div className='front'>
             <div className='enter-pg'>
                 <Link to="/Inside">
-                    <img classname='outside' src={enter} alt='enter page' width="1000px" height="1000px"/>
+                    <img className='outside' src={enter} alt='enter page' width="1000px" height="1000px"/>
                 </Link>
             </div>
         </div>

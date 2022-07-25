@@ -1,4 +1,10 @@
-
+*{
+    -ms-overflow-style: auto;
+}
+::-webkit-scrollbar{
+    display: none;
+    
+}
 .enter-pg{
  display: flex;
  align-items: center;
@@ -7,3 +13,68 @@
  bottom: 150px;
 }
 
+/*Mobile screens*/
+@media screen and (max-width: 1050px){
+  
+    .enter-pg{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     bottom: 50%;
+    }
+   
+}
+@media screen and (max-width: 1050px) and (orientation: landscape){
+  
+    .enter-pg{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     bottom: 150px;
+    }
+   
+}
+@media screen and (max-width: 900px) and (orientation: landscape){
+  
+    .enter-pg{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     bottom: 40px;
+    }
+   
+}
+@media screen and (max-width: 770){
+  
+    .enter-pg{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     bottom: 40px;
+    }
+    .outside{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 575px){
+  
+    .enter-pg{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     bottom: -170px;
+     left: 10px;
+     
+    }
+    .outside{
+        width: 300px;
+        height: 300px;
+    }
+   
+}

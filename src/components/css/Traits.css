@@ -14,20 +14,18 @@ h1{
 .trait1{
         display: flex;
         margin: auto;
-        justify-content: center;
-        align-items: center;
         height: 500px;
         width: 500px;
-        padding: 10px;
+        
+       
 }
 .trait2{
         display: flex;
+        flex: 33.3%;
         margin: auto;
-        justify-content: center;
-        align-items: center;
         height: 500px;
         width: 500px;
-        padding: 10px;
+        
 }
 @media screen and (max-width:980px) {
     img{

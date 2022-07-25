@@ -19,7 +19,7 @@ import nip from  "../components/images/nipzz.png"
 function Inside() {
   return (
     <div className='last'>
-      <img  classname='store' src= {inside} alt='in side the store' width="100%" height="725px" />
+      <img  className='store' src= {inside} alt='in side the store' width="100%" height="725px" />
     <div className='wanted'>
       <Link to="/Team">
       <img className='img4' src={wanted} alt="wanted poster" />

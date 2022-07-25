@@ -13,6 +13,7 @@ const traits = () => {
             <div className='title-nme'>
                 <h1>Traits</h1>
             </div>
+            
             <div className='img1'>
                     <img className='trait1' src={trait1} alt='feline fiend 1'/>
                 </div>
